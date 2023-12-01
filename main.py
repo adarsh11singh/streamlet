@@ -32,7 +32,7 @@ st.dataframe(df, use_container_width=True)
 st.success("Column information of the dataset")
 cols = df.columns.tolist()
 st.subheader(f'Total columns {len(cols)} ➡️  {", ".join(cols)}')
-
+#  zss
 # 3. add some graph and widgets
 
 st.header("Basic DAta Visualization")
